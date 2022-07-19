@@ -1,0 +1,6 @@
+{
+	"component": true,
+	"usingComponents": {
+		"ni-icon":"../ni-icon/ni-icon"
+	}
+}

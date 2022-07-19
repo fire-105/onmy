@@ -1,0 +1,7 @@
+{
+	"usingComponents": {
+		"pop-up": "/miniprogram_npm/nicolia-miniprogram/popup/popup",
+		"navigation-bar": "/miniprogram_npm/nicolia-miniprogram/navigation-bar/navigation-bar",
+		"ni-icon": "/miniprogram_npm/nicolia-miniprogram/ni-icon/ni-icon"
+	}
+}

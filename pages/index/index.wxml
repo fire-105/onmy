@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+<navigation-bar title="基础组件" possibleReturn="{{false}}"/>
+<view class="container">
+  <view class="popup_btn" bind:tap="openPopup">
+    <view>popup</view>
+    <ni-icon name="arrow"></ni-icon>
+  </view>
+</view>

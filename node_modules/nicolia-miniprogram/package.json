@@ -1,0 +1,12 @@
+{
+  "name": "nicolia-miniprogram",
+  "version": "0.0.3",
+  "description": "simple miniprogram npm package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicolia",
+  "license": "ISC",
+  "miniprogram": "lib"
+}

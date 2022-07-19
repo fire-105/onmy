@@ -1,0 +1,56 @@
+.popup-wrap {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+.popup-wrap.show {
+	display: flex;
+}
+
+
+.popup-board {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	transition: all .3s ease;
+	pointer-events: auto;
+	background-color: #fff;
+}
+
+.popup-board.top {
+	left: 0;
+	top: -999rpx;
+}
+.popup-board.bottom {
+	left: 0;
+	bottom: -999rpx;
+}
+.popup-board.left {
+	top: 0;
+	left: -999rpx;
+}
+.popup-board.right {
+	top: 0;
+	right: -999rpx;
+}
+
+.popup-board.show.top {
+	left: 0;
+	top: 0;
+}
+.popup-board.show.bottom {
+	left: 0;
+	bottom: 0;
+}
+.popup-board.show.left {
+	top: 0;
+	left: 0;
+}
+.popup-board.show.right {
+	top: 0;
+	right: 0;
+}

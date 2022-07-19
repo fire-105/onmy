@@ -1,0 +1,14 @@
+<navigation-bar title="popup"/>
+<view class="popup__container" hover-class="none" hover-stop-propagation="false">
+  <view class="label_btn-block" hover-class="none" hover-stop-propagation="false">
+    <block wx:for="{{options}}" wx:key="value">
+      <view class="label_btn-item" catch:tap="handlePress" data-value="{{item.value}}">
+        <view>{{item.label}}</view>
+        <ni-icon name="arrow"></ni-icon>
+      </view>
+    </block>
+  </view>
+  <pop-up show="{{ show }}" direction="{{ direction }}" catch:close="handleClose">
+    <view class="container">{{ text }}</view>
+  </pop-up>
+</view>

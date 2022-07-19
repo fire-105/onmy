@@ -1,0 +1,23 @@
+.popup__container {
+	min-height: calc(100vh - 56px);
+	background-color: #f7f8fa;
+}
+.label_btn-block {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	color: #424242;
+}
+
+.label_btn-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 20rpx;
+	padding: 20rpx 20rpx;
+	width: calc(100% - 40rpx);
+	box-sizing: border-box;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: 17px 12px 30px rgba(0, 0, 0, 0.03);
+}

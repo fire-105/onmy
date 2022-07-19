@@ -1,0 +1,4 @@
+<view class="navigation-bar__container" style="height:{{height}}px">
+  <ni-icon wx:if="{{possibleReturn}}" name="arrow-left" size="20" class="navigation-bar__back" catch:click="goback"></ni-icon>
+  <view class="navigation-bar__title">{{title}}</view>
+</view>
